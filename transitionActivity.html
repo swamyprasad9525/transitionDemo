@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Transition Demo</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="bg-blue-600 animate-pulse h-24 content-center text-center text-white"><p class="font-bold text-2xl leading-10">Tailwind CSS Animation & Transitions</p>
+        <p>Explore smooth transition and cool effects with tailwind CSS</p>
+    </div>
+
+    <div class="text-center justify-center content-center w-145 ml-80">
+        <h class="font-bold text-1xl leading-15">What Are Tractions & Animations?</h>
+        <p>Tranctions and animations helps imorove user expirence by adding motion effect to elements with tailwind CSS you can easily add smooth animatins using utility class</p>
+    </div>
+    <div class="grid grid-cols-2 gap-2 ml-80 mt-10 mr-60 mb-10">
+        <div class="h-64 w-54 bg-[url('dogimage.jpg')] bg-no-repeat bg-cover bg-center rounded-xl flex items-center justify-center
+        transition-all delay-200 duration-700 hover:scale-100 hover:-translate-x-12">
+            <div class="h-24 w-24 backdrop-blur-2xl rounded-2xl text-center content-center">Translate</div>
+        </div>
+        <div class="h-64 w-54 bg-[url('dogimage.jpg')] bg-no-repeat bg-cover bg-center rounded-xl flex items-center justify-center
+        transition-all delay-200 duration-700 hover:scale-100 hover:rotate-y-180">
+            <div class="h-24 w-24 backdrop-blur-2xl rounded-2xl text-center content-center">Rotate</div>
+        </div>
+        <div class="h-64 w-54 bg-[url('dogimage.jpg')] bg-no-repeat bg-cover bg-center rounded-xl flex items-center justify-center
+        transition-all delay-200 duration-700 hover:scale-100 hover:blur-sm">
+            <div class="h-24 w-24 backdrop-blur-2xl rounded-2xl text-center content-center">Blur</div>
+        </div>
+        <div class="h-64 w-54 bg-[url('dogimage.jpg')] bg-no-repeat bg-cover bg-center rounded-xl flex items-center justify-center
+        transition-all delay-200 duration-700 hover:shadow-2xl hover:shadow-red-600">
+            <div class="h-24 w-24 backdrop-blur-2xl rounded-2xl text-center content-center">Shadow</div>
+        </div>
+    </div>
+    <footer class="h-20 bg-black"><h1 class="text-white text-center">@2025 Tailwind Animation & Transition <span class="animate-pulse text-red-700 text-2xl">&hearts;</span></h1></footer>
+</body>
+</html>
